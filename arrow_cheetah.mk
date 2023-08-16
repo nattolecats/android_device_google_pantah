@@ -4,9 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common Lineage stuff.
+# Inherit some common ArrowOS stuff.
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/arrow/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/pantah/aosp_cheetah.mk)
@@ -17,7 +17,7 @@ include device/google/pantah/cheetah/device-lineage.mk
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 7 Pro
-PRODUCT_NAME := lineage_cheetah
+PRODUCT_NAME := arrow_cheetah
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 3120
