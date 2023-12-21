@@ -48,3 +48,6 @@ TARGET_KERNEL_EXT_MODULES := \
     video/gchips \
     wlan/bcmdhd4389 \
     wlan/wlan_ptracker
+
+MY_DEVICE := pantah
+-include vendor/ntl/config/pixel-prebuilt-kernel.mk
