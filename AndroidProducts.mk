@@ -26,6 +26,9 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_panther_hwasan.mk \
     $(LOCAL_DIR)/factory_panther.mk
 
+PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/cipher_panther.mk
+
 COMMON_LUNCH_CHOICES := \
     aosp_cloudripper-trunk_staging-userdebug \
     aosp_ravenclaw-trunk_staging-userdebug \

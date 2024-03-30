@@ -1,0 +1,9 @@
+#
+# Copyright (C) 2024 The LineageOS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
+DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
